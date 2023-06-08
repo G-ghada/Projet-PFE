@@ -1,0 +1,24 @@
+<div class="site">
+    <header class="header">
+        <div class='container'>
+            <div class="left-header">
+                <a href="/" class="theme-styled-logo">
+                    <img class="inline img" src="/assets/logo.png" />
+                </a>
+                <a href="/" class="top-title"> <!-- Raw link instead of a router navigate; we don't want to keep state -->
+
+                </a>
+            </div>
+        </div>
+    </header>
+    <mat-divider></mat-divider>
+    <router-outlet class="Site-content"></router-outlet>
+    <div class="footer theme-styled-even-darker-background">
+        <div class="footer-text">
+            <p>
+              copyright by
+               <span class="nowrap">search vecto</span> 2023.
+            </p>
+        </div>
+    </div>
+</div>
